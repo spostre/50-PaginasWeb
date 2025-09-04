@@ -1,23 +1,49 @@
+.color {
+    background-color: #0000001f;
+    border-radius: 20px;
+    border: 0.1px dotted;
+}
+
 .container {
     display: flex;
+    padding: 25px;
     flex-wrap: wrap;
+    background-color: #7576771c;
+    border: 1px solid;
+    border-radius: 20px;
+    justify-content: center;
 }
 
 .front {
     display: flex;
-    background-color:azure;
+    background-color:rgb(197, 197, 197);
     border-radius: 20px;
+    border: 1px solid;
+    padding: 20px;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+.font {
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
 .box {
     display: flex;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
     border: 5px solid;
-    width: 400px;
+    border-radius: 20px;
+    width: auto;
     height: 400px;
+    flex-wrap: wrap;
 }
 
 .box:hover {    
@@ -25,3 +51,13 @@
     transform: scale(1.01);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.box img {
+    display: block;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
