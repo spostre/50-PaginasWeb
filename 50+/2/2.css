@@ -1,0 +1,116 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 980px;
+}
+
+.hero-section { /* Seccion de texto*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.hero-text { /* Texto*/
+    flex: 1;
+    min-width: 280px;
+}
+
+.hero-images {
+    flex: 1.2;
+    min-width: 300px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    margin: 0 0 30px 0;
+}
+
+.hero-text button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-images .image-wrapper-large,
+.hero-images .image-wrapper-small {
+    flex: 1;
+}
+
+.hero-images .image-wrapper-small {
+    margin-top: 50px;
+}
+
+.hero-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.gallery-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gallery-item {
+    flex: 1;
+    min-width: 250px;
+}
+
+.react {
+    flex: 1;
+    min-width: 250px;
+}
+
+
+.react:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
