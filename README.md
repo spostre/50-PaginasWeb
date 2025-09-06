@@ -6,3 +6,5 @@ Todos los elementos de la pagina principal estan en su lugar, el resto del traba
 
 Voy en la cuarta pagina. La resolucion de las imagenes no es la mejor pero las paginas van bien.
 Por algun motivo el align-item nunca funciona asi que busco otras alternativas.
+
+Tuve problemas con la pagina 6 y no pude recrearla exactamente como la original. La imagen no se quiere cuadrar a su posicion correspondiente.

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 80px;
+}
+
+.page-container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.box {
+    flex: 1;
+}
+
+.box h2 {
+    font-size: 18px;
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.box p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.box img {
+    width: 100%;
+    display: block;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
