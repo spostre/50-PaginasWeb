@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 80px;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.info-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.info-box {
+    flex: 1;
+}
+
+.info-box h2 {
+    font-size: 20px;
+    color: #b0b0b0;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+.info-box p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+}
+
+.box {
+    flex: 1;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 40px 20px 20px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    color: white;
+}
+
+.box-content h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.box-content p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.85);
+}

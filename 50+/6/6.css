@@ -94,6 +94,11 @@ body {
     height: 550px;
 }
 
+.image-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .tag {
     position: absolute;
     background-color: #7a66e3;
