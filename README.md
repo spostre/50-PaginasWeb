@@ -13,3 +13,4 @@ Fue complicado alinear varias imagenes, pero intente que se alinearan correctame
 
 Todas las paginas estan completas. Hay algunas que no son iguales a la original pero es por la resolucion de la imagen.
 
+link: https://super-scone-2d9a2c.netlify.app/
