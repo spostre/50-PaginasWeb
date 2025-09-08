@@ -10,3 +10,6 @@ Por algun motivo el align-item nunca funciona asi que busco otras alternativas.
 Tuve problemas con la pagina 6 y no pude recrearla exactamente como la original. La imagen no se quiere cuadrar a su posicion correspondiente.
 
 Fue complicado alinear varias imagenes, pero intente que se alinearan correctamente. Debo revisar documentacion.
+
+Todas las paginas estan completas. Hay algunas que no son iguales a la original pero es por la resolucion de la imagen.
+

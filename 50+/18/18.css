@@ -1,0 +1,115 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 750px;
+}
+
+.header {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 400px;
+}
+
+.header h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+}
+
+.header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 0 25px 0;
+}
+
+.header button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.text-block-left {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+}
+
+.text-block-right {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    text-align: right;
+}
+
+.text-block-left p, .text-block-right p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+}
+
+.text-block-right .line {
+    margin-left: auto;
+}
+
+.image-placeholder {
+    position: absolute;
+}
+
+.image-placeholder:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*Modificacion de posicion*/
+#waves-left { top: 40px; left: 40px; width: 300px; }
+#circle-text-left { top: 130px; left: 80px; width: 150px; }
+#waves-right { top: 150px; right: 40px; width: 300px; }
+#circle-text-right { top: 10px; right: 80px; width: 150px; }
+
+
+/*Modificacion de posicion*/
+#img1 { top: 280px; left: 180px; width: 220px; height: 280px; }
+#img2 { top: 520px; left: 20px; width: 150px; height: 180px; }
+#img3 { top: 600px; left: 180px; width: 220px; height: 180px; }
+#img4 { top: 280px; left: 420px; width: 250px; height: 500px; }
+#img5 { top: 280px; left: 690px; width: 200px; height: 150px; }
+#img6 { top: 450px; left: 690px; width: 200px; height: 150px; }
+#img7 { top: 350px; right: 20px; width: 180px; height: 230px; }

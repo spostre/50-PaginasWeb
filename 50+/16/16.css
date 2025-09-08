@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url('/50-PaginasWeb/50+/16/images/Generated\ Image\ September\ 07\,\ 2025\ -\ 3_58PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 0px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 650px;
+}
+
+.header-container {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 450px;
+    padding: 30px;
+    background-color: rgba(10, 25, 40, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.colors {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.header-container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+}
+
+.header-container p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin: 0 0 25px 0;
+}
+
+.header-container button {
+    background-color: #8af5e1;
+    color: #0a1928;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.features-container {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    right: 40px;
+    display: flex;
+    gap: 1px;
+    padding: 25px;
+    background-color: rgba(10, 25, 40, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.features-container:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.box {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.box .icon {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 8px;
+}
+
+.box h3 {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+}
+
+.box p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #cccccc;
+    margin: 0;
+}

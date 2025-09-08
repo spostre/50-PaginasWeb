@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #333;
+    background-image: url('/50-PaginasWeb/50+/27/images/Generated\ Image\ September\ 07\,\ 2025\ -\ 6_38PM.jpeg');
+    background-size: auto;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 80px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.header {
+    width: 450px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.tag img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.header p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+    margin: 0 0 30px 0;
+}
+
+.header button {
+    background-color: #5a9cff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 35px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    gap: 50px;
+}
+
+.image-box {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

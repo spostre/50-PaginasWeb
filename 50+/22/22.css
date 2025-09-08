@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #010524;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 25px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding-right: 20px;
+}
+
+.header h1 {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+}
+
+.header p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin: 0 0 30px 0;
+}
+
+.header button {
+    background-color: #f0f0f0;
+    color: #0b0f29;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-box {
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.image-box img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+#top-img-1 {position: absolute; top: 0px; left: 650px; width: 220px; height: 280px; }
+#top-img-2 {position: absolute; top: 0px; left: 900px; width: 220px; height: 280px; }
+#middle-img-1 { grid-column: 1 / 2; grid-row: 2 / 3; border-radius: 25px; }
+#gallery-img-1 { grid-column: 1 / 2; grid-row: 3 / 4; border-radius: 25px; }
+#gallery-img-2 { grid-column: 2 / 3; grid-row: 3 / 4; border-radius: 25px; }
+#gallery-img-3 { grid-column: 3 / 4; grid-row: 3 / 4; border-radius: 25px; }
+
+.list-container {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    align-self: center;
+    padding: 0 20px;
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.list-item {
+    margin-bottom: 20px;
+}
+
+.list-item h2 {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+
+.list-item p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #cccccc;
+    margin: 0;
+}
